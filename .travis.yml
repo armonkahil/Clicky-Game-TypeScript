@@ -4,6 +4,9 @@ node_js:
 cache:
   directories:
   - node_modules
+env:
+  global:
+    - CC_TEST_REPORTER_ID=id
 install:
 - npm install -q --no-color --no-progress
 before_script:
